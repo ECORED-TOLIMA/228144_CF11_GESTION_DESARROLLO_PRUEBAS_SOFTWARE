@@ -78,28 +78,29 @@
 
     p.mb-4 La aplicación de SPICE en el desarrollo de pruebas de #[i software] implica varios pasos fundamentales: 
 
-    .tarjeta--BG02.px-md-5.p-lg-0.p-4
-      .row.justify-content-center.align-items-center.my-lg-5.my-4
-        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
-          figure
-            img(src='@/assets/curso/tema2/img-05.png', alt='alt' style='margin-bottom: -25px;')
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-12")
-            .tarjeta.bgslyder.p-4
-              h4 A. Definición de procesos de pruebas.
-              p.mb-0 Primero, es importante definir claramente los procesos que se utilizarán en las pruebas. Esto incluye su planificación, el diseño de casos de prueba, la ejecución, el registro de resultados y la gestión de defectos. SPICE ayuda a formalizar y documentar estos procesos.
-            .tarjeta.bgslyder.p-4
-              h4 B. Evaluación de procesos. 
-              p.mb-0 Una vez definidos, la organización debe evaluar estas acciones utilizando el modelo de evaluación de SPICE. Esto implica recopilar datos sobre cómo se llevan a cabo los procesos de pruebas y compararlos con los niveles de capacidad establecidos en el modelo. Por ejemplo, se podría evaluar si las pruebas se planifican de manera sistemática o si se realizan de forma ad hoc.
-            .tarjeta.bgslyder.p-4
-              h4 C.	Identificación de mejoras. 
-              p.mb-0 Con base en la evaluación, se identifican las áreas que necesitan mejora. Esto puede incluir aspectos como la documentación deficiente de los casos de prueba, falta de seguimiento en la gestión de defectos o ineficiencias en la ejecución de pruebas automatizadas.
-            .tarjeta.bgslyder.p-4
-              h4 D.	Implementación de cambios.
-              p.mb-0 Después de identificar las áreas de mejora, se implementan acciones correctivas y cambios en los procesos. Esto puede involucrar la capacitación del personal, la adopción de herramientas de gestión de pruebas o la creación de plantillas estandarizadas para casos de prueba.
-            .tarjeta.bgslyder.p-4
-              h4 E.	Monitoreo y re-evaluación. 
-              p.mb-0 Finalmente, SPICE promueve la idea de que la mejora es un esfuerzo continuo. Después de implementar cambios, es importante seguir monitoreando su efectividad en las actividades de prueba, recoger #[i feedback] y volver a evaluar con el modelo SPICE para verificar si se ha avanzado hacia niveles de capacidad más altos.
+    .tarjeta--BG02.px-md-5.p-lg-0.p-4.slyderF-wrapper
+      .slyderF-container
+        .row.justify-content-center.align-items-center.my-lg-5.my-4
+          .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+            figure
+              img(src='@/assets/curso/tema2/img-05.png', alt='alt' style='margin-bottom: -25px;')
+          .col-lg-8
+            SlyderF.custom.color-acento-botones(columnas="col-12")
+              .tarjeta.bgslyder.p-4
+                h4 A. Definición de procesos de pruebas.
+                p.mb-0 Primero, es importante definir claramente los procesos que se utilizarán en las pruebas. Esto incluye su planificación, el diseño de casos de prueba, la ejecución, el registro de resultados y la gestión de defectos. SPICE ayuda a formalizar y documentar estos procesos.
+              .tarjeta.bgslyder.p-4
+                h4 B. Evaluación de procesos. 
+                p.mb-0 Una vez definidos, la organización debe evaluar estas acciones utilizando el modelo de evaluación de SPICE. Esto implica recopilar datos sobre cómo se llevan a cabo los procesos de pruebas y compararlos con los niveles de capacidad establecidos en el modelo. Por ejemplo, se podría evaluar si las pruebas se planifican de manera sistemática o si se realizan de forma ad hoc.
+              .tarjeta.bgslyder.p-4
+                h4 C.	Identificación de mejoras. 
+                p.mb-0 Con base en la evaluación, se identifican las áreas que necesitan mejora. Esto puede incluir aspectos como la documentación deficiente de los casos de prueba, falta de seguimiento en la gestión de defectos o ineficiencias en la ejecución de pruebas automatizadas.
+              .tarjeta.bgslyder.p-4
+                h4 D.	Implementación de cambios.
+                p.mb-0 Después de identificar las áreas de mejora, se implementan acciones correctivas y cambios en los procesos. Esto puede involucrar la capacitación del personal, la adopción de herramientas de gestión de pruebas o la creación de plantillas estandarizadas para casos de prueba.
+              .tarjeta.bgslyder.p-4
+                h4 E.	Monitoreo y re-evaluación. 
+                p.mb-0 Finalmente, SPICE promueve la idea de que la mejora es un esfuerzo continuo. Después de implementar cambios, es importante seguir monitoreando su efectividad en las actividades de prueba, recoger #[i feedback] y volver a evaluar con el modelo SPICE para verificar si se ha avanzado hacia niveles de capacidad más altos.
     
     Separador
 
@@ -312,7 +313,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
-        AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
+        AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C01 color-boton-slyder" data-aos="zoom-in")
           .row.justify-content-center(titulo="Planificación - Definir el alcance")
             p En esta fase inicial, no se trata solo de "decir qué probar", sino de establecer las reglas del juego para cada unidad de código (una función, una clase o un módulo pequeño). Incluye:
             .col-lg-12.order-lg-1.order-2
@@ -523,7 +524,7 @@
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#F1E2FF; padding-top:80px;")
             p.text-center.mb-0(style="color:#12263F") #[b Cumplimiento normativo.] Es esencial en sectores regulados como la medicina, aviación, energía nuclear y automotriz.
 
-    .BMG1.px-md-5.px-4
+    .BMG2.px-md-5.px-4
       .row.align-items-center.mb-4(data-aos="zoom-in")
         .col-auto.pe-0(style="z-index:2")
           figure

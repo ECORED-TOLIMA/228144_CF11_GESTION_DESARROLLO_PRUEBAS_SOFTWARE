@@ -169,7 +169,7 @@ export default {
           id: 5,
           texto:
             'Dentro del ciclo PHVA, ¿en qué etapa se implementan mejoras para eliminar las causas raíz de los problemas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -202,7 +202,7 @@ export default {
           id: 6,
           texto:
             '¿Qué indicador mide la efectividad del proceso de pruebas comparando defectos hallados en producción vs. totales?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -235,7 +235,7 @@ export default {
           id: 7,
           texto:
             '¿Qué nombre recibe la estrategia de gestión que busca adelantar las actividades de prueba y detección a las etapas más tempranas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -268,7 +268,7 @@ export default {
           id: 8,
           texto:
             'En la norma ISO/IEC 25010, ¿qué subcaracterística pertenece a la adecuación funcional??',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -301,7 +301,7 @@ export default {
           id: 9,
           texto:
             '¿Qué nivel de capacidad en el modelo ISO/IEC 15504 (SPICE) indica que el proceso está definido y estandarizado?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -333,7 +333,7 @@ export default {
         {
           id: 10,
           texto: '¿Cuál es la premisa fundamental del modelo CMMI?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -368,7 +368,7 @@ export default {
           id: 11,
           texto:
             'En CMMI, ¿qué caracteriza al Nivel 2 de Madurez (Gestionado)?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -403,7 +403,7 @@ export default {
           id: 12,
           texto:
             '¿Qué metodología de desarrollo se basa en ciclos sucesivos que integran el análisis de riesgos como eje central?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -436,7 +436,7 @@ export default {
           id: 13,
           texto:
             'Según el comparativo de metodologías, ¿en qué momento se realizan las pruebas en Scrum?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -469,7 +469,7 @@ export default {
           id: 14,
           texto:
             '¿Cuál es el objetivo principal del Personal Software Process (PSP)?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -503,7 +503,7 @@ export default {
           id: 15,
           texto:
             '¿En qué nivel de PSP se introduce la estimación de tamaño y esfuerzo basada en datos históricos?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -536,7 +536,7 @@ export default {
           id: 16,
           texto:
             '¿Cuál es el rol en TSP encargado de supervisar las métricas de calidad?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -569,7 +569,7 @@ export default {
           id: 17,
           texto:
             'El método PROBE utilizado para estimaciones en PSP se basa en:',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -602,7 +602,7 @@ export default {
           id: 18,
           texto:
             'En el contexto de documentación técnica, ¿qué define el plan de aseguramiento de calidad (SQA Plan)?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -638,7 +638,7 @@ export default {
           id: 19,
           texto:
             '¿Qué elemento es esencial en un reporte de defectos para evitar pérdida de tiempo y confusiones? ',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -671,7 +671,7 @@ export default {
           id: 20,
           texto:
             '¿Qué herramienta técnica permite conectar una historia de usuario con su <em>commit, build</em> y caso de prueba?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {

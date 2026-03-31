@@ -254,7 +254,7 @@
                     p.mb-0 CD (entrega continua): desplegar automáticamente las mejoras para que el usuario las reciba rápido.
       .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img-07.svg', alt='')
+          img(src='@/assets/curso/tema4/img-18.svg', alt='')
 
     p A continuación, se presenta una tabla comparativa que permite contrastar las principales diferencias entre las metodologías tradicionales y las metodologías ágiles:
 

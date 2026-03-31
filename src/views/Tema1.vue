@@ -25,10 +25,10 @@
       .col.col-lg-8.col-12
         .row.justify-content-center.align-items-center.g-0
           .col-lg-12.order-lg-2.order-2
-            .cajon.cajon.C02.p-4
+            .cajon.cajon.C02.p-2
               .col-lg-12
-                .tarjeta.clr--pink.p-4.rounded-0.h-100
-                  .tarjeta.bg-white.p-4
+                .tarjeta.clr--pink.p-3.rounded-0.h-100
+                  .tarjeta.bg-white.p-3
                     //- #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
                     //-   h2 Pódcast
                     TarjetaAudio.color-acento-botones.mb-3(

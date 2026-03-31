@@ -379,37 +379,38 @@
 
     p.mb-4.text-center De acuerdo a lo relacionado en la representación continua, cada nivel de capacidad representa:
 
-    .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-4
-      .row.justify-content-center.align-items-center.my-lg-5.my-4
-        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
-          figure
-            img(src='@/assets/curso/tema3/img-06.png', alt='alt' style='margin-bottom: -25px;')
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
-            .tarjeta.bgslyder.p-4
-              .row.justify-content-center.mb-3
-                .col-5
-                  img(src="@/assets/curso/tema3/img-07.svg", alt="alt")
-              p.text-center #[b Nivel 0 — Incompleto] 
-              p.text-center El proceso no se realiza o se realiza parcialmente. No todas las metas específicas se satisfacen.
-            .tarjeta.bgslyder.p-4
-              .row.justify-content-center.mb-3
-                .col-5
-                  img(src="@/assets/curso/tema3/img-08.svg", alt="alt")
-              p.text-center #[b Nivel 1 — Realizado]
-              p.text-center El proceso se realiza y se logran las metas específicas. Sin rigor de gestión.
-            .tarjeta.bgslyder.p-4
-              .row.justify-content-center.mb-3
-                .col-5
-                  img(src="@/assets/curso/tema3/img-09.svg", alt="alt")
-              p.text-center #[b Nivel 2 — Gestionado]
-              p.text-center El proceso se planifica, monitorea y controla. Los productos de trabajo son controlados.
-            .tarjeta.bgslyder.p-4
-              .row.justify-content-center.mb-3
-                .col-5
-                  img(src="@/assets/curso/tema3/img-10.svg", alt="alt")
-              p.text-center #[b Nivel 3 — Definido] 
-              p.text-center El proceso se adapta desde el proceso estándar de la organización y tiene documentación completa.
+    .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-4.slyderF-wrapper.slyderF-wrapper--niveles
+      .slyderF-container
+        .row.justify-content-center.align-items-center.my-lg-5.my-4
+          .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+            figure
+              img(src='@/assets/curso/tema3/img-06.png', alt='alt' style='margin-bottom: -25px;')
+          .col-lg-8
+            SlyderF.custom.color-acento-botones.slyderF-fix-ipad(columnas="col-lg-6 col-xl-6")
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/tema3/img-07.svg", alt="alt")
+                p.text-center #[b Nivel 0 — Incompleto] 
+                p.text-center El proceso no se realiza o se realiza parcialmente. No todas las metas específicas se satisfacen.
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/tema3/img-08.svg", alt="alt")
+                p.text-center #[b Nivel 1 — Realizado]
+                p.text-center El proceso se realiza y se logran las metas específicas. Sin rigor de gestión.
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/tema3/img-09.svg", alt="alt")
+                p.text-center #[b Nivel 2 — Gestionado]
+                p.text-center El proceso se planifica, monitorea y controla. Los productos de trabajo son controlados.
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/tema3/img-10.svg", alt="alt")
+                p.text-center #[b Nivel 3 — Definido] 
+                p.text-center El proceso se adapta desde el proceso estándar de la organización y tiene documentación completa.
 
     p.mb-4.text-center Para detallar de mejora manera estas dos representaciones, se relaciona la siguiente tabla comparativa:
 
