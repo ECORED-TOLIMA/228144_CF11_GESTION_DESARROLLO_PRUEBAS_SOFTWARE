@@ -20,7 +20,7 @@ export default {
       tema: 'Calidad de <em>software.</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión sobre los fundamentos, estándares y metodologías, basado en los procesos que garantizan la calidad en el ciclo de vida del desarrollo de software.',
+        '<b> Objetivo:</b> evaluar la comprensión sobre los fundamentos, estándares y metodologías, basado en los procesos que garantizan la calidad en el ciclo de vida del desarrollo de <em>software.</em>',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -267,7 +267,7 @@ export default {
         {
           id: 8,
           texto:
-            'En la norma ISO/IEC 25010, ¿qué subcaracterística pertenece a la adecuación funcional??',
+            'En la norma ISO/IEC 25010, ¿qué subcaracterística pertenece a la adecuación funcional?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [

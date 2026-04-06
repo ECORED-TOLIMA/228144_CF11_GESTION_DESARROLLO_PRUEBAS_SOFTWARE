@@ -163,7 +163,7 @@ export default {
           },
           {
             numero: '6.6',
-            titulo: 'Herramientas informáticas de apoyo	44',
+            titulo: 'Herramientas informáticas de apoyo',
             hash: 't_6_6',
           },
         ],
@@ -171,7 +171,7 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Documentación en procesos de calidad	44',
+        titulo: 'Documentación en procesos de calidad',
         desarrolloContenidos: true,
         subMenu: [
           {
