@@ -382,7 +382,7 @@
                 img(src='@/assets/curso/tema1/img-14.png', style="width: 500px" ,alt='').m-auto
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
-              h4(style="color:#000 !important") Indicadores de servicio/calidad del servicio de software
+              h4(style="color:#000 !important") Indicadores de servicio/calidad del servicio de #[i software]
               ul.lista-ul
                 li.mb-0
                   ul

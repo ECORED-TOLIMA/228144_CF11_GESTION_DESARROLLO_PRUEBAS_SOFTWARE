@@ -111,25 +111,25 @@
     p.mb-4  A continuación, un poco de historia: 
 
     .row.mb-4
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")(style="background-color:#DFEFFF")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/tema2/img-06.svg' alt="")
-        h4.text-center 1993 IEEE 829 - Publicado.
-        p.text-center.mb-0  Se establece el primer estándar para la documentación de pruebas.
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-right")(style="background-color:#F1E2FF")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema2/img-07.svg' alt="")
         h4.text-center 1987: IEEE 1008 - Establecido
         p.text-center.mb-0 Se introduce una metodología sistemática para pruebas unitarias.
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-left")(style="background-color:#DFEFFF")
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")(style="background-color:#DFEFFF")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/tema2/img-06.svg' alt="")
+        h4.text-center 1993 IEEE 829 - Publicado.
+        p.text-center.mb-0  Se establece el primer estándar para la documentación de pruebas.
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-left")(style="background-color:#F1E2FF")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema2/img-08.svg' alt="")
         h4.text-center 1998-2008 Revisiones y actualizaciones
         p.text-center.mb-0  Los estándares se adaptan a metodologías ágiles y nuevos paradigmas.
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#F1E2FF")
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#DFEFFF")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema2/img-09.svg' alt="")

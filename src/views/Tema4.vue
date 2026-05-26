@@ -110,7 +110,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Metodologías ágiles
 
-    p.mb-4 Estas metodologías ágiles surgen como una respuesta a la necesidad de flexibilidad, rapidez y entrega continua de valor en entornos donde los requisitos cambian constantemente. En ducha metodología se encuentra:
+    p.mb-4 Estas metodologías ágiles surgen como una respuesta a la necesidad de flexibilidad, rapidez y entrega continua de valor en entornos donde los requisitos cambian constantemente. En dicha metodología se encuentra:
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")

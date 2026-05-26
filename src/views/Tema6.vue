@@ -87,7 +87,7 @@
                 h4 El proceso de planeación
                 p PSP1: introduce el método PROBE (Proxy Based Estimation) para estimar el tamaño y el tiempo basándose en datos históricos.
                 p PSP1.1: se añade la planeación de tareas y el cronograma del proyecto (calendario).
-            .row.justify-content-center(titulo="PSP1 y PSP1.1")
+            .row.justify-content-center(titulo="PSP2 y PSP2.1")
               .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
                 img(src='@/assets/curso/tema6/img-06.svg' alt="")
               .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
@@ -111,7 +111,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
-          .row.justify-content-center(titulo="Scripts (Guiones de proceso)")
+          .row.justify-content-center(titulo="<em>Scripts</em> (Guiones de proceso)")
             p Los #[i scripts] son guías paso a paso que describen exactamente qué actividades realizar en cada fase del desarrollo. Su función es garantizar que el proceso sea repetible y que no se salte ninguna etapa crítica.
             .col-lg-12.order-lg-1.order-2
               .row.justify-content-center
@@ -202,7 +202,7 @@
         .p-1
           h3.mb-0.ms-3 Estimación basada en objetos (#[i Proxies])
 
-    p La dificultad de estimar software radica en que es intangible. PROBE soluciona esto usando #[i Proxies] (objetos representativos).
+    p La dificultad de estimar #[i software] radica en que es intangible. PROBE soluciona esto usando #[i Proxies] (objetos representativos).
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-8.order-2
@@ -262,7 +262,7 @@
                   p.mb-0 y: tiempo total estimado.
                 li  
                   i.fas.fa-circle.purple(style="top: 8px;")
-                  p.mb-0 x: tamaño del proxy (líneas de código u objetos).
+                  p.mb-0 x: tamaño del <em>proxy</em> (líneas de código u objetos).
                 li  
                   i.fas.fa-circle.purple(style="top: 8px;")
                   p.mb-0 β0 (Pendiente): indica cuánto tiempo aumenta por cada unidad de tamaño.
@@ -367,7 +367,7 @@
                               p.mb-0 Una densidad baja (después de las pruebas) indica un producto robusto y confiable.
                             li  
                               i.fas.fa-circle(style="top: 8px;")
-                              p.mb-0 #[b Benchmarking:] permite al desarrollador establecer metas de mejora. Un objetivo común en PSP es reducir la densidad de defectos en la fase de "Pruebas" aumentando la detección en la fase de "Revisión de Código".
+                              p.mb-0 #[i #[b Benchmarking:]] permite al desarrollador establecer metas de mejora. Un objetivo común en PSP es reducir la densidad de defectos en la fase de "Pruebas" aumentando la detección en la fase de "Revisión de Código".
 
       .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/tema6/img-15.png' alt="")

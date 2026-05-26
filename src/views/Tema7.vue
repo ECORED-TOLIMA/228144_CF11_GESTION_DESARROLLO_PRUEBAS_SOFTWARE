@@ -21,20 +21,12 @@
 
     p.mb-4 Son el lenguaje común que permite que la calidad sea medible y auditable. En ingeniería de #[i software], estos documentos no son simples trámites, sino herramientas de gestión que aseguran que el equipo sepa qué debe cumplir y cómo se verificará dicho cumplimiento.
 
-    .row.align-items-center.mb-4(data-aos="zoom-in")
-      .col-auto.pe-0(style="z-index:2")
-        figure
-          img(src='@/assets/curso/icono.svg', style="width: 45px" ,alt='').m-auto
-      .col-lg-auto.col-9.titulo01(style="z-index:1")
-        .p-1
-          h3.mb-0.ms-3 Principios del PSP
-
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
         AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
           .row.justify-content-center(titulo="Plan de aseguramiento de calidad (SQAP)")
             .col-md-12.mb-4.mb-md-0
-              p El software Quality Assurance Plan es el documento maestro que define el "qué" y el "quién". Su objetivo es establecer el marco de trabajo para prevenir defectos antes de que ocurran. Sus acciones son las siguientes: 
+              p El #[i software] Quality Assurance Plan es el documento maestro que define el "qué" y el "quién". Su objetivo es establecer el marco de trabajo para prevenir defectos antes de que ocurran. Sus acciones son las siguientes: 
             .col-md-12
               figure
                 img(src='@/assets/curso/tema7/img-02.png', alt='')
@@ -47,16 +39,16 @@
                         ul.lista-ul.mb-0 
                           li  
                             i.fas.fa-circle(style="top: 8px;")
-                            p.mb-0 #[b Determinación de objetivos.] Identificar qué se quiere lograr en esa iteración.
+                            p.mb-0 #[b Alcance.] Define qué partes del proyecto serán supervisadas (código, manuales de usuario, requisitos).
                           li  
                             i.fas.fa-circle(style="top: 8px;")
-                            p.mb-0 #[b Análisis de riesgos.] Evaluar qué puede salir mal y crear prototipos para mitigar fallas (esta es su mayor fortaleza).
+                            p.mb-0 #[b Roles. ] Determina quién es el responsable de auditar los procesos y quién de aprobar las entregas.
                           li  
                             i.fas.fa-circle(style="top: 8px;")
-                            p.mb-0 #[b Desarrollo y prueba.] Se construye la versión del software para ese ciclo.
+                            p.mb-0 #[b Normativas.] Cita los estándares internacionales que se seguirán, como ISO/IEC 25010 o la IEEE 1012 que vimos anteriormente.
                           li  
                             i.fas.fa-circle(style="top: 8px;")
-                            p.mb-0 #[b Planificación.] Revisión del cliente y preparación para el siguiente ciclo.
+                            p.mb-0 #[b Revisiones y auditorías.] Establece un calendario de inspecciones para asegurar que el equipo no se desvíe del proceso definido.
 
           .row.justify-content-center(titulo="Plan de pruebas (<em>Software test plan</em>)")
             .col-md-12.mb-4.mb-md-0

@@ -24,7 +24,7 @@
         .cajon.cajon.C01.p-4.p-md-4
           .row.justify-content-center(data-aos="flip-left") 
             .col-lg-10.order-lg-1.order-2
-              p.mb-0 Un nivel de madurez es una plataforma evolutiva que describe el grado en que los procesos de una organización están definidos, gestionados, medidos y optimizados. Cada nivel representa un estado de madurez organizacional: para alcanzar un nivel superior se debe haber institucionalizado completamente todos los niveles anteriores. No es posible 'saltar' niveles.
+              p.mb-0 CMMI es un modelo de mejora de procesos que permite a las organizaciones evaluar y optimizar la manera en que desarrollan y gestionan sus proyectos. Su enfoque se basa en niveles de madurez que reflejan el grado de definición, control y mejora continua de los procesos organizacionales. Cada nivel representa una etapa evolutiva que debe cumplirse progresivamente, ya que el avance hacia niveles superiores requiere la consolidación de las prácticas establecidas en los niveles anteriores.
             .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/tema3/img-02.png", alt="")
