@@ -156,7 +156,7 @@
                 td.text-center(style="background-color: #FFFF;") PMC
                 td(style="background-color: #FFFF;") Monitoreo y control del proyecto
                 td(style="background-color: #FFFF;") Nivel 2
-                td(style="background-color: #FFFF;") Los proyectos se planifican, monitorean y controlan. Los procesos se documentan y se adhieren. El éxito puede repetirse en proyectos similares.
+                td(style="background-color: #FFFF;") Permite comprender el avance y tomar acciones correctivas oportunas cuando el proyecto se desvía del plan. SG1: monitorear contra plan. SG2: acciones correctivas.
               tr(data-aos="fade-right")
                 td.text-center(style="background-color: #F6F6F6;") SAM
                 td(style="background-color: #F6F6F6;") Gestión de acuerdos con proveedores
@@ -412,7 +412,7 @@
                 p.text-center #[b Nivel 3 — Definido] 
                 p.text-center El proceso se adapta desde el proceso estándar de la organización y tiene documentación completa.
 
-    p.mb-4.text-center Para detallar de mejora manera estas dos representaciones, se relaciona la siguiente tabla comparativa:
+    p.mb-4.text-center Para detallar de mejor manera estas dos representaciones, se relaciona la siguiente tabla comparativa:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10

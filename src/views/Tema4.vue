@@ -41,7 +41,7 @@
                         img(src='@/assets/curso/tema4/img-02.svg', alt='' style="max-width:120px; width:100%; height:auto;")
                     .col-12.col-lg
                       h4.mt-2 Ventajas
-                      p.mt-2.mb-0 Es fácil de entender y gestionar debido a su rigidez...
+                      p.mt-2.mb-0 Es fácil de entender y gestionar debido a su rigidez. Funciona bien cuando los requisitos están perfectamente definidos desde el inicio.
             .row.justify-content-center
               .col-lg-10.col-12
                 .tarjeta.tarjeta--BGC02.p-4(style="background-color:#FFFF; border-radius:none !important")
@@ -51,7 +51,7 @@
                         img(src='@/assets/curso/tema4/img-03.svg', alt='' style="max-width:120px; width:100%; height:auto;")
                     .col-12.col-lg
                       h4.mt-2 Desventaja principal
-                      p.mt-2.mb-0 Es muy difícil y costoso retroceder...
+                      p.mt-2.mb-0 Es muy difícil y costoso retroceder. El cliente solo ve el resultado final al terminar todo el proceso, lo que genera riesgos si hubo malentendidos iniciales.
 
           .row.justify-content-center(titulo="B. Modelo en V (<em>V-Model</em>)")
             p Se considera una extensión del modelo en cascada, pero con un enfoque crítico en el aseguramiento de la calidad. Su nombre proviene de la forma en que se visualiza: el lado izquierdo representa la descomposición de requisitos y el derecho la integración y pruebas.

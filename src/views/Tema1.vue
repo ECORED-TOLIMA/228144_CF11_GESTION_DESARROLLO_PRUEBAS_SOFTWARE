@@ -33,7 +33,7 @@
                     //-   h2 Pódcast
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Pódcast"
-                    :audio="require('@/assets/curso/podcast/podcast.wav')"
+                    :audio="require('@/assets/curso/podcast/podcast.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -395,7 +395,7 @@
                     li(data-aos="fade-right") 
                       i.fas.fa-minus(style="top: 8px;")
                       p.mb-0 MTTR (tiempo medio de recuperación).
-              p Estos indicadores conectan #[i testing] con el “servicio de #[i software]”, que es clave en tu competencia del curso.
+              p Estos indicadores conectan #[i testing] con el “servicio de #[i software]”, que es clave en la competencia del curso.
             .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4 
               figure
                 img(src='@/assets/curso/tema1/img-15.png', style="width: 500px" ,alt='').m-auto
